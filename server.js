@@ -19,6 +19,9 @@ app.get('/', function(req, res){
   res.send('<h1>Today is going to be a great day</h1>')
 })
 
+app.get('/home', function(req, res){
+  res.send('<h1>University of Learning<h1>')
+})
 
 // Tell the app to listen on port 3000
 
