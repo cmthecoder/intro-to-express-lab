@@ -10,9 +10,11 @@
   <h1>Students</h1>
   <ul>
     <% students.forEach(student => { %>
-      <%= student.text %>
-      -
-      <%= student.done ? 'done' : 'not done' %> 
+      <li>
+        <%= student.text %>
+        -
+        <%= student.done ? 'done' : 'not done' %> 
+    </li>
     <% }) %>
   </ul>
 </body>
